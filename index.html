@@ -8,12 +8,36 @@
     <link rel="shortcut icon" href="favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Tic-Tac-Toe" />
-    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!-- <link rel="manifest" href="favicon/site.webmanifest" /> -->
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="styles.css">
     
 </head>
 <body>
+
+    <div class="container">
+        <div class="game-container">
+            <div class="heading"><h1>Tic Tac Toe</h1></div>
+            
+            <div class="game">
+                <div class="cell borderless"></div>
+                <div class="cell part-borderA"></div>
+                <div class="cell borderless"></div>
+                <div class="cell part-borderD"></div>
+                <div class="cell"></div>
+                <div class="cell part-borderC"></div>
+                <div class="cell borderless"></div>
+                <div class="cell part-borderB"></div>
+                <div class="cell borderless"></div>
+            </div>
+            <div class="game-btns">
+                <h2 id="statusText"></h2>
+                <!-- <button class="start-btn">Start</button> -->
+                <button class="reset-btn">Reset</button>
+            </div>
+
+        </div>
+    </div>
     
 
     <script src="script.js"></script>
